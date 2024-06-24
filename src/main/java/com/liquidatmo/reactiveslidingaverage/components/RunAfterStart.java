@@ -10,7 +10,7 @@ import java.util.Arrays;
 @Component
 public class RunAfterStart {
 
-    @EventListener(ApplicationReadyEvent.class)
+ //   @EventListener(ApplicationReadyEvent.class)
     public void runAfterStartup() {
         slidingAverage(5, 1, 10);
     }
